@@ -5,12 +5,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 :root{
-    --text-color1: #5a2e2e;
-    --text-color2: #666;
+    --text-color1: #ffffff;
+    --text-color2: #000000;
     --background-color: #f2f2f2;
     --box-color: #fff;
-    --brand-color: #fffb00;
-    --hover-color: #d6d600;
+    --brand-color: #ddd01e;
+    --hover-color: #ffee00;
     --required-color: red;
 }
 body {
@@ -53,7 +53,7 @@ main {
 }
 
 label {
-    color: var(--text-color1);
+    color: var(--text-color2);
     font-weight: 600;
     margin-bottom: 5px;
 }
@@ -79,8 +79,9 @@ label {
 input[type="submit"] {
     background-color: var(--brand-color);
     color: var(--text-color1);
+    width: 500px;
     border: none;
-    padding: 12px;
+    padding: 10px;
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
@@ -94,5 +95,5 @@ input[type="submit"]:hover {
 footer {
     text-align: center;
     margin-top: 20px;
-    color: var(--text-color1);
+    color: var(--text-color2);
 }
